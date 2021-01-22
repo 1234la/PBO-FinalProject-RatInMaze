@@ -19,7 +19,7 @@ Permainan ini dimainkan di PC dengan menggunakan control button keyboard yakni '
 ## Layar Game
 
 ### Menu
-<img src="https://user-images.githubusercontent.com/55240758/105487226-539b8f00-5ce2-11eb-942c-c7fd475a0c35.png" width="500" height="390">
+<img src="https://user-images.githubusercontent.com/55240758/105511590-a422e480-5d02-11eb-8be1-ddb200c024c8.png" width="500" height="390">
 
 
 ### Play Game
@@ -39,7 +39,7 @@ Permainan ini dimainkan di PC dengan menggunakan control button keyboard yakni '
 
 
 ### Map Maker - membuat map *tidak berdasarkan* pada level yang ada (*new level*)
-<img src="https://user-images.githubusercontent.com/55240758/105487328-7463e480-5ce2-11eb-89a3-2415bb009e41.png" width="490" height="510">
+<img src="https://user-images.githubusercontent.com/55240758/105512202-64103180-5d03-11eb-867e-a93ea3e7699f.jpg" width="490" height="510">
 
 
 ### Help
