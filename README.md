@@ -22,12 +22,12 @@ Permainan ini dimainkan di PC dengan menggunakan control button keyboard yakni '
 <img src="https://user-images.githubusercontent.com/55240758/105511590-a422e480-5d02-11eb-8be1-ddb200c024c8.png" width="500" height="390">
 
 
-### Play Game
-<img src="https://user-images.githubusercontent.com/55240758/105487278-66ae5f00-5ce2-11eb-9a80-f2a775fe0a92.png" width="490" height="510">
-
-
 ### List Level
 <img src="https://user-images.githubusercontent.com/55240758/105487226-539b8f00-5ce2-11eb-942c-c7fd475a0c35.png" width="500" height="390">
+
+
+### Help
+<img src="https://user-images.githubusercontent.com/55240758/105487521-d3295e00-5ce2-11eb-89ef-e0c262edca13.png" width="500" height="390">
 
 
 ### Map Maker - pilihan membuat map *berdasarkan* list level yang telah ada atau *new level*
@@ -42,8 +42,8 @@ Permainan ini dimainkan di PC dengan menggunakan control button keyboard yakni '
 <img src="https://user-images.githubusercontent.com/55240758/105512202-64103180-5d03-11eb-867e-a93ea3e7699f.jpg" width="490" height="510">
 
 
-### Help
-<img src="https://user-images.githubusercontent.com/55240758/105487521-d3295e00-5ce2-11eb-89ef-e0c262edca13.png" width="500" height="390">
+### Play Game
+<img src="https://user-images.githubusercontent.com/55240758/105487278-66ae5f00-5ce2-11eb-9a80-f2a775fe0a92.png" width="490" height="510">
 
 
 ### Congratulation
