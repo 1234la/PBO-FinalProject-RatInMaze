@@ -114,7 +114,8 @@ public class Menu{
 				@Override
 				public void actionPerformed(ActionEvent e) {
 					new MapMaker();
-//					Menu.setVisible(false);
+					Menu.setVisible(false);
+					sound.stopSound();
 				}
 	        	
 	        });

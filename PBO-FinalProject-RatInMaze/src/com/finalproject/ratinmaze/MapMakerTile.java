@@ -24,7 +24,7 @@ public class MapMakerTile extends JPanel{
 	                        MapMaker.map[x][y] = 1;
                     	}
                     	if(e.getButton() == MouseEvent.BUTTON3){
-	                        setBackground(Color.BLACK);
+	                        setBackground(Color.GRAY);
 	                        MapMaker.map[x][y] = 0;
                     	}
                     }

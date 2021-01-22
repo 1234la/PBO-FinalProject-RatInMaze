@@ -43,7 +43,7 @@ public class MapMaker extends JFrame{
 	        this.addWindowListener(new WindowAdapter(){
 	            public void windowClosing(WindowEvent e) {
 	                saveMap();
-//	                new Menu();
+	                new Menu();
 	            }
 	        });
 	        

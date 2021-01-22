@@ -37,9 +37,9 @@ public class TimerMaze extends JPanel {
 		this.setVisible(true);
 		this.setOpaque(false);
 				
-		counterLabel.setText("Time Left " + "01:00");
-		second = 0;
-		minute = 1;
+		counterLabel.setText("Time Left " + "00:30");
+		second = 30;
+		minute = 0;
 		countDownTimer();
 		timerStart();
 	}
