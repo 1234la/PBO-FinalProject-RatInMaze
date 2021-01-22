@@ -49,6 +49,7 @@ public class MapMaker extends JFrame{
 	        
 	        this.setLocationRelativeTo(null);
 	        
+	      //menampilkan map 
 	        for(int y = 0; y < columns; y++){
 	            for(int x = 0; x < rows; x++){
 	            	MapMakerTile tile = new MapMakerTile(x, y);
@@ -60,15 +61,14 @@ public class MapMaker extends JFrame{
 	                    tile.setBackground(Color.WHITE);
 	                }
 	                
-	                tile.setVisible(true);
-	                
+	                //tile.setVisible(true);
+	                //menambahkan tile di frame agar muncul
 	                this.add(tile);
 	            }
 	        }
 	        this.setVisible(true);
-    	}else{
-//    		new Menu();
     	}
+    	
     }
     
     public void getMapList(){
@@ -91,9 +91,13 @@ public class MapMaker extends JFrame{
 	    	System.out.println(choice);
 	    	if(choice != null && !choice.equals("New level")){
 	    		level = Integer.parseInt((choice.replace("Level ", "").replace(".map", "")));
-	    	}else if(choice == null){
+	    	}
+	    	//Jika tidak jadi membuat map baru
+	    	else if(choice == null){
 	    		level = -1;
-	    	}else{
+	    	}
+	    	//new level
+	    	else{
 	    		level = mapList.size();
 	    	}
     	}
@@ -101,6 +105,7 @@ public class MapMaker extends JFrame{
     
     public void saveMap(){
         try{
+        //membuat file baru dengan memanggil class PrintWrite
         PrintWriter writer = new PrintWriter("Level "+level+".map", "UTF-8");
         for(int y = 0; y < columns; y++){
             for(int x = 0; x < rows; x++){
@@ -146,7 +151,9 @@ public class MapMaker extends JFrame{
                     counter++;
                 }
             }
-        }catch(Exception e){
+        }
+        //jika new level
+        catch(Exception e){
             System.out.println("Unable to load existing map(if exists), creating new map.");
             for(int y = 0; y < columns; y++){
                 for(int x = 0; x < rows; x++){

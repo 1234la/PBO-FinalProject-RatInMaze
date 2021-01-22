@@ -146,6 +146,7 @@ public class Maze extends JFrame{
                      	//untuk mengeset koordinat y
                      	p.y = y;
                      }
+                     //sudah paling kanan
                      if(x == columns-1){
                      	endLevelLoc = y;
                      }

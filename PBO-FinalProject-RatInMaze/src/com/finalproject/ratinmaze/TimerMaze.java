@@ -60,6 +60,7 @@ public class TimerMaze extends JPanel {
 					second = 59;
 					minute--;
 					
+					//ubah format ke bentuk 00:00
 					doubleDigitSecond = dFormat.format(second);
 					doubleDigitMinute = dFormat.format(minute);
 					counterLabel.setText("Time Left " + doubleDigitMinute + ":" + doubleDigitSecond);
