@@ -3,10 +3,10 @@
 oleh Kelompok Maze Runner
 
 ## Anggota Kelompok:
-👩‍💻 Amanda Rozi Kurnia - 05111940000094\
- > username : maisugarhoney\
+>👩‍💻 Amanda Rozi Kurnia - 05111940000094\
+ username : maisugarhoney\
 👩‍💻 Lathifa Itqonina M - 05111940000176\
- > username : 1234la\
+ username : 1234la\
        
 
 
